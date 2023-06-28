@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     
     font-size: 35px;
     line-height: 1.6;
     color:#fff;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(253, 253, 253);
 }
 
 *,
@@ -18,7 +18,7 @@ body {
 .container {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 /* Intro */
 
@@ -36,7 +36,7 @@ body {
 
 .intro__inner {
     width: 100%;
-    max-width: 880px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -45,10 +45,31 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     text-align: left;
-    line-height: 3;
+    line-height: 1;
+   
+
+
     text-shadow: 2px 2px 2px black;
 }
 
+.intro__definition {
+    font-size: 20px;
+    width: 100%;
+    max-width:600px;
+    
+
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    background-color: black;
+    word-spacing: 10px;
+    text-indent: 20px;
+    
+    margin-left: 30px;
+    
+}
 
 
 
@@ -79,7 +100,7 @@ body {
     font-size: 30px;
     font-weight: 700;
     color: #fff;
-    
+   
 }
 
 /* Nav */ 
@@ -128,4 +149,101 @@ body {
 
 .nav__link:hover:after {
     opacity: 1;
+}
+
+
+/* Section */
+
+.section {
+    color: black;
+    background-color: #fff;
+}
+
+.section__title {
+    font-size: 45px;
+    text-align: center;
+}
+
+.section__definition {
+    font-size: 18px;
+    width: 100%;
+    max-width: 1200px;
+    
+    
+    text-indent: 50px;
+    opacity: .8;
+    
+}
+
+/* Solutions */
+
+.solutions {
+    background-color: #f2cd43;
+
+
+}
+
+.solutions__title {
+    font-size: 45px;
+    font-weight: 550;
+    color: black;
+    text-align: center;
+    
+    padding-top: 28px;
+    
+}
+
+.solutions__title:before {
+    content: "";
+    display: block;
+    width:  300px;
+    height: 3px;
+
+    background-color:black;
+    margin: 0 auto;
+}
+
+.solutions__title:after {
+    content: "";
+    display: block;
+    width:  300px;
+    height: 3px;
+
+    background-color:black;
+    margin: 0 auto;
+
+}
+
+.solution {
+    font-size: 18px;
+    display: flex;
+   text-align: center;
+    
+}
+
+.solution__item {
+    background-color: #fff;
+    color:black;
+    
+    border-radius: 15px;
+    border: 3px solid black;
+
+    flex: 1 1 0;
+    margin-inline:70px;
+    margin-bottom: 30px;
+
+}
+
+/* Contact */
+
+.contact {
+    background-color: black;
+    
+}
+
+.contact__title {
+    font-size: 30px;
+    
+    margin: auto
+
 }
